@@ -1,0 +1,11 @@
+package Metier;
+
+public class MetierImpl implements Imetier {
+
+	@Override
+	public double calcul() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

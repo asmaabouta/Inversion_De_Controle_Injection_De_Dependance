@@ -1,0 +1,16 @@
+package Metier;
+
+import dao.IDao;
+
+public class MetierImpl implements Imetier {
+    // 
+	private IDao dao;
+	@Override
+	public double calcul() {
+		// recupere data 
+		double data=dao.getData();
+		double res=data*Math.PI;
+		return res;
+	}
+
+}
